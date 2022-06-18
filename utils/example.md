@@ -7,11 +7,11 @@ ${data.description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributions](#how to contribute)
+- [Contributions](#how-to-contribute)
 - [Tests](#tests)
 - [Questions](#questions)
 
-## Installation ⚙️
+## Installation
 ${data.installation}
 
 ## Usage
@@ -29,5 +29,5 @@ ${data.tests}
 ## Questions
 Please reach out with any questions you may have about this application.
 
-* :octocat:GitHub: [@${githubName}](https://github.com/${githubName})
-* :incoming_envelope:Email: ${data.email}
+* :octocat:GitHub: [@${data.githubName}](https://github.com/${data.githubName})
+* :envelope: ${data.email}
