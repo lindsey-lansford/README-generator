@@ -23,11 +23,11 @@ ${data.description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributions](#contributions)
-- [Tests](#test)
+- [Contributions](#how to contribute)
+- [Tests](#tests)
 - [Questions](#questions)
 
-## ⚙️Installation
+## Installation⚙️
 
 ${data.installation}
 
@@ -35,7 +35,7 @@ ${data.installation}
 
 ${data.usage}
 
-## 📑License
+## License
 
 This project is licensed under ${data.license} license.
 
@@ -51,7 +51,7 @@ ${data.tests}
 
 Please reach out with any questions you may have about this application.
 
-* :octocat: GitHub: [@${githubName}](https://github.com/${githubName})
+* :octocat: GitHub: [@${data.githubName}](https://github.com/${data.githubName})
 * :incoming_envelope: Email: ${data.email}
 
 

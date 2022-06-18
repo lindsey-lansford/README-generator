@@ -7,17 +7,17 @@ ${data.description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributions](#contributions)
-- [Tests](#test)
+- [Contributions](#how to contribute)
+- [Tests](#tests)
 - [Questions](#questions)
 
-## :wrench: ⚙️ Installation
+## Installation ⚙️
 ${data.installation}
 
 ## Usage
 ${data.usage}
 
-## 📑 License
+## License
 ${data.license}
 
 ## How to Contribute
@@ -30,4 +30,4 @@ ${data.tests}
 Please reach out with any questions you may have about this application.
 
 * :octocat:GitHub: [@${githubName}](https://github.com/${githubName})
-* :incoming_envelope: 📨 Email: ${data.email}
+* :incoming_envelope:Email: ${data.email}
