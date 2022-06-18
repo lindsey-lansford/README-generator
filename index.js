@@ -13,8 +13,28 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Give a description of your project?',
+        message: 'Provide a short description explaining the what, why, and how of the project.',
         name: 'description'
+    },
+    {
+        type: 'input',
+        message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
+        name: 'installation'
+    },
+    {
+        type: 'input',
+        message: 'Provide instructions and examples for use of your application.',
+        name: 'usage'
+    },
+    {
+        type: 'input',
+        message: 'If you want other developers to contribute to your application, include detailed guidelines for how to do so.',
+        name: 'contribution'
+    },
+    {
+        type: 'input',
+        message: 'If tests were performed on your application, provide examples here.',
+        name: 'tests'
     },
     {
         type: 'input',

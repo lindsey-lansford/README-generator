@@ -14,8 +14,48 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.projectTitle}
 
-# Description
+## Description
+
 ${data.description}
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributions](#contributions)
+- [Tests](#test)
+- [Questions](#questions)
+
+## ⚙️Installation
+
+${data.installation}
+
+## Usage
+
+${data.usage}
+
+## 📑License
+
+This project is licensed under ${data.license} license.
+
+## How to Contribute
+
+${data.contribution}
+
+## Tests
+
+${data.tests}
+
+## Questions
+
+Please reach out with any questions you may have about this application.
+
+* :octocat: GitHub: [@${githubName}](https://github.com/${githubName})
+* :incoming_envelope: Email: ${data.email}
+
+
+
 `;
 }
 
