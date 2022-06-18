@@ -23,11 +23,11 @@ ${data.description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributions](#how to contribute)
+- [Contributions](#how-to-contribute)
 - [Tests](#tests)
 - [Questions](#questions)
 
-## Installation⚙️
+## Installation
 
 ${data.installation}
 
@@ -52,11 +52,7 @@ ${data.tests}
 Please reach out with any questions you may have about this application.
 
 * :octocat: GitHub: [@${data.githubName}](https://github.com/${data.githubName})
-* :incoming_envelope: Email: ${data.email}
-
-
-
-`;
+* :envelope: Email: ${data.email}`;
 }
 
 module.exports = generateMarkdown;
