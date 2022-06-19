@@ -1,10 +1,10 @@
-// TODO: Include packages needed for this application
+// Packages needed for this application
 const fs = require('fs')
 const inquirer = require('inquirer')
 const generateMarkdown = require('./utils/generateMarkdown.js')
 
 
-// TODO: Create an array of questions for user input
+// An array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -18,7 +18,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
+        message: 'What are the steps required to install your project?\n- Provide a step-by-step description of how to get the development environment running.',
         name: 'installation'
     },
     {
@@ -46,18 +46,52 @@ const questions = [
         message: 'What is your email address?',
         name: 'email'
     },
-
+    {
+        type: 'list',
+        message: 'Choose a license for your application from the list below, or choose to add your own later.',
+        name: 'license',
+        choices: [
+            {
+                name: 'Boost',
+                value: '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)'
+            },
+            {
+                name: 'MIT',
+                value: '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+            },
+            {
+                name: 'IBM',
+                value: '[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)'
+            },
+            {
+                name: 'Mozilla',
+                value: '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)'
+            },
+            {
+                name: 'The Do What the F*ck You Want to Public License',
+                value: '[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)'
+            },
+            {
+                name: 'Add my own later',
+                value: " ",
+            }
+        ]
+    }
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(data) {}
-
-// TODO: Create a function to initialize app
+//Function that creates README file(with user responses) & initializes app
 function init() {
     inquirer.prompt(questions)
         .then(response => {
             const userInput = generateMarkdown(response)
             console.log(userInput)
+            fs.writeFileSync('README.md', userInput, (err) => {
+                if (err) {
+                    console.log(err)
+                } else {
+                    console.log('Your README file has been created successfully.')
+                } 
+                })
     })
 }
 
