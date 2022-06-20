@@ -26,7 +26,7 @@ To install this application, you will need to clone the repo and install the inq
 This app runs directly through the command-line by entering  `node index.js` You will be given a variety of questions that will help generate your high quality README file.
 
 ## License
-    This project is licensed under **MIT** license.
+    This project is licensed under MIT license.
 
 ## How to Contribute
 
@@ -43,6 +43,8 @@ Please reach out with any questions you may have about this application.
 * :octocat: GitHub: [@lindsey-lansford](https://github.com/lindsey-lansford)
 * :envelope: Email: lindsey.lansford@gmail.com
 
+
+---
 ### Walkthrough Demonstration
 
----> [Watch the Video]()
+*--->* [Watch the Video]()
