@@ -16,7 +16,9 @@ This project allows a user to quickly generate a high quality README file by usi
 
 ## Installation
 
-To install this application, you will need to clone the repo and install the inquirer module by entering ==`npm install inquirer`== into the command-line. If you want to learn more about the inquirer pkg, [click here](https://www.npmjs.com/package/inquirer).
+To install this application, you will need to clone the repo and install the inquirer module by entering `npm install inquirer` into the command-line. 
+
+>_If you want to learn more about the inquirer pkg, [click here](https://www.npmjs.com/package/inquirer)._
 
 ## Usage
 
