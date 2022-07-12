@@ -34,7 +34,7 @@ When creating an open source project on GitHub, there is always the option for o
 
 ## Tests
 
-At this time, there have no been any tests documented for this application.
+At this time, no tests have been documented for this application.
 
 ## Questions
 
